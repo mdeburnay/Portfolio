@@ -1,3 +1,31 @@
 .App {
   text-align: center;
+  background-image: url(./Images/base-background.jpg);
+  height: 100vh;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-links {
+  transition: 0.4s ease;
+  transform: translate(-50%);
+  -ms-transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.summary-title {
+  color: white;
+}
+
+.summary-text {
+  color: white;
+}
+
+.navbar-links:hover {
+  color: aqua;
 }
