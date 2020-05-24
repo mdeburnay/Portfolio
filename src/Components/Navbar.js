@@ -1,24 +1,23 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
+import githubIcon from "../Images/githubIcon.svg";
+import linkedInIcon from "../Images/linkedInIcon.svg";
+import emailIcon from "../Images/emailIcon.svg";
+
 export default class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
-        <div className="nav-header">
-          <Link className="navbar-links" to="/">
-            HOME
-          </Link>
-          <Link className="navbar-links" to="/Projects">
-            PROJECTS
-          </Link>
-          <Link className="navbar-links" to="/About">
-            ABOUT
-          </Link>
-          <Link className="navbar-links" to="/Contact">
-            CONTACT
-          </Link>
-        </div>
+        <Link className="navbar-links" to="/">
+          <img src={githubIcon} className="navbar-icons" />
+        </Link>
+        <Link className="navbar-links" to="/">
+          <img src={linkedInIcon} className="navbar-icons" />
+        </Link>
+        <Link className="navbar-links" to="/">
+          <img src={emailIcon} className="navbar-icons" />
+        </Link>
       </div>
     );
   }

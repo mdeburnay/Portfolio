@@ -4,12 +4,20 @@ import { Link } from "react-router-dom";
 
 export default function Projects() {
   return (
-    <div className="projects-container">
-      <h1 className="projects-title">Projects.</h1>
-      <div className="projects-grid">
-        <img className="project-image" src={kodflixLogo} alt="Project Logo" />
-        <div className="overlay">
-          <div className="project-text-box">Kodflix</div>
+    <div className="section-container">
+      <h1 className="section-header" data-aos="fade-right">
+        Projects.
+      </h1>
+      <div className="section-grid projects">
+        <img
+          className="project-image"
+          data-aos="fade-in"
+          data-aos-delay="500"
+          src={kodflixLogo}
+          alt="Kodflix Logo"
+        />
+        <div className="project-text" data-aos="fade in">
+          Kodflix
         </div>
       </div>
     </div>
