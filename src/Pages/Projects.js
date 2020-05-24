@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <div className="section-container">
       <h1 className="section-header" data-aos="fade-right">
-        Projects.
+        Projects<span className="fullstop">.</span>
       </h1>
       <div className="section-grid projects">
         <img

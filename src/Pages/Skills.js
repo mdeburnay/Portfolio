@@ -16,7 +16,7 @@ export default function Skills() {
   return (
     <div className="section-container">
       <h1 className="section-header" data-aos="fade-right">
-        Skills.
+        Skills<span className="fullstop">.</span>
       </h1>
       <div className="section-grid" data-aos="fade-in">
         <img src={javascriptIcon} className="icons" alt="JavaScript Icon" />
