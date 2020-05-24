@@ -11,6 +11,7 @@
   grid-template-columns: 1fr 1fr 1fr 12fr;
   grid-gap: 10px;
   z-index: 9999;
+  border-bottom: 1px solid red;
 }
 
 .navbar-links {
@@ -63,7 +64,7 @@
   font-size: 100px;
 }
 
-.surname-fullstop {
+.fullstop {
   color: red;
 }
 

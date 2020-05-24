@@ -8,8 +8,8 @@ import emailIcon from "../Images/emailIcon.svg";
 export default class Navbar extends Component {
   render() {
     return (
-      <div className="navbar">
-        <Link className="navbar-links" to="/">
+      <div className="navbar" data-aos="fade-in">
+        <Link className="navbar-links" to="/https://github.com/mdeburnay/">
           <img src={githubIcon} className="navbar-icons" />
         </Link>
         <Link className="navbar-links" to="/">

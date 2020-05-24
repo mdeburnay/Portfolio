@@ -21,7 +21,7 @@ export default function Homepage() {
           />
           <div className="overlay">
             <h1 className="homepage-title" data-aos="fade in">
-              MAX DE BURNAY BASTOS<span className="surname-fullstop">.</span>
+              MAX DE BURNAY BASTOS<span className="fullstop">.</span>
             </h1>
           </div>
         </div>
@@ -31,7 +31,7 @@ export default function Homepage() {
           Technology Recruitment I decided to delve into the world of tech
           myself, building projects with some of the most relevant technologies
           in the market. Take a look at my portfolio to see what I have been up
-          to.
+          to<span className="fullstop">.</span>
         </div>
       </div>
     </div>
