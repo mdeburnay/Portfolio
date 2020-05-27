@@ -1,6 +1,5 @@
 import React from "react";
 import kodflixLogo from "../Images/kodflixLogo.png";
-import { Link } from "react-router-dom";
 
 export default function Projects() {
   return (

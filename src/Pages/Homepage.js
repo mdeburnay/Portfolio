@@ -21,8 +21,13 @@ export default function Homepage() {
           />
           <div className="overlay">
             <h1 className="homepage-title" data-aos="fade in">
-              MAX DE BURNAY BASTOS<span className="fullstop">.</span>
+              MAX DE<br></br>BURNAY<br></br>BASTOS
+              <span className="fullstop">.</span>
             </h1>
+            <link
+              href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+              rel="stylesheet"
+            ></link>
           </div>
         </div>
         <div className="summary" data-aos="fade in" data-aos-delay="500">
