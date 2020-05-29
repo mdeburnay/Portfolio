@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import PortfolioPic from "../Images/PortfolioPic.JPG";
+import PortfolioPic2 from "../Images/PortfolioPic2.jpg";
 
 export default function Homepage() {
   useEffect(() => {
@@ -15,13 +15,13 @@ export default function Homepage() {
         <div className="left-container">
           <img
             className="portfolio-image"
-            src={PortfolioPic}
+            src={PortfolioPic2}
             data-aos="fade in"
             alt="Portfolio Pic"
           />
           <div className="overlay">
             <h1 className="homepage-title" data-aos="fade in">
-              MAX DE<br></br>BURNAY<br></br>BASTOS
+              Max De Burnay Bastos
               <span className="fullstop">.</span>
             </h1>
             <link
@@ -31,12 +31,30 @@ export default function Homepage() {
           </div>
         </div>
         <div className="summary" data-aos="fade in" data-aos-delay="500">
-          Fullstack software developer with experience in developing clean,
-          responsive websites with the user in mind. After a brief career in
-          Technology Recruitment I decided to delve into the world of tech
-          myself, building projects with some of the most relevant technologies
-          in the market. Take a look at my portfolio to see what I have been up
-          to<span className="fullstop">.</span>
+          Hi, I'm Max<span className="fullstop">.</span>
+          <br></br>
+          <br></br>A social, dedicated and passionate individual actively
+          seeking a full-stack Software Development role. During a career in
+          Technology Recruitment I was always having detailed conversations with
+          technologists ranging from developers and IT support to those in IT
+          leadership. After learning more about the constantly changing IT
+          landscape and it's growing importance within business and society I
+          decided to dedicate myself entirely to learning Software Development
+          to be part of this digital journey
+          <span className="fullstop">.</span>
+          <br></br>
+          <br></br>
+          Working with leading technologies to build web and mobile
+          applications, I am keen to join a business that will find value in my
+          current skillset and enable to use this for their advantage, as well
+          as to continually develop my knowledge in the field
+          <span className="fullstop">.</span>
+          <br></br>
+          <span className="fullstop">.</span>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+            rel="stylesheet"
+          ></link>
         </div>
       </div>
     </div>
