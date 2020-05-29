@@ -50,7 +50,6 @@ export default function Homepage() {
           as to continually develop my knowledge in the field
           <span className="fullstop">.</span>
           <br></br>
-          <span className="fullstop">.</span>
           <link
             href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
             rel="stylesheet"
