@@ -1,0 +1,27 @@
+.section-container.projects {
+  color: black;
+}
+
+.section-grid-projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding-top: 20px;
+}
+
+.project-image {
+  transition: 0.2;
+  border-radius: 50px 50px;
+}
+
+.project-text {
+  font-size: 25px;
+  font-weight: 400;
+  padding: 25px;
+  color: #000;
+  text-decoration: none;
+}
+
+.project-image:hover {
+  transform: scale(1.2);
+}

@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./Homepage.css";
 
-import PortfolioPic2 from "../Images/PortfolioPic2.jpg";
+import PortfolioPic2 from "../../Images/PortfolioPic2.jpg";
 
 export default function Homepage() {
   useEffect(() => {
@@ -10,8 +11,8 @@ export default function Homepage() {
   }, []);
 
   return (
-    <div>
-      <div className="homepage-container">
+    <>
+      <div className="section-container homepage" id="home">
         <div className="left-container">
           <img
             className="portfolio-image"
@@ -56,6 +57,6 @@ export default function Homepage() {
           ></link>
         </div>
       </div>
-    </div>
+    </>
   );
 }

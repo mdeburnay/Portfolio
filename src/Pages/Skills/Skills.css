@@ -1,0 +1,23 @@
+.section-container.skills {
+  background: black;
+  color: white;
+}
+
+.section-grid-skills {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  padding-top: 75px;
+}
+
+.skills-icon {
+  width: 30%;
+  filter: invert(100%);
+}
+
+.skills-icon-text {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 25px;
+}

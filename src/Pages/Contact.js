@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function Homepage() {
+export default function Contact() {
   return (
-    <div className="contact-container">
-      <h1 className="contact-title">Contact.</h1>
+    <div className="section-container contact" id="contact">
+      <h1 className="section-header" data-aos="fade-right">
+        Contact<span className="fullstop">.</span>
+      </h1>
       <div className="context-text"></div>
     </div>
   );
