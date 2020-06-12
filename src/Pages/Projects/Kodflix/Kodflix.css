@@ -1,0 +1,19 @@
+.left-container {
+  position: relative;
+  opacity: 1;
+}
+
+.section-container.kodflix {
+}
+
+.section-header.kodflix {
+  font-family: "Varela Round", sans-serif;
+}
+.summary.kodflix {
+  padding-left: 20px;
+}
+
+.summary-title {
+  font-family: "Varela Round", sans-serif;
+  font-size: 20px;
+}

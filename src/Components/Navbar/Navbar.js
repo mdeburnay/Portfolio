@@ -26,8 +26,13 @@ function NavbarButton({ isButtonPressed }) {
 function NavbarContent({ isOpen }) {
   return (
     <nav className={`navbar-content ${isOpen ? "is-open" : ""}`}>
-      <Link className="nav-link" smooth to="#home">
-        Home
+      <Link className="nav-link logo" smooth to="#home">
+        MDB<span className="fullstop">.</span>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+          rel="stylesheet"
+        ></link>
+       <div></div>
       </Link>
       <Link className="nav-link" smooth to="#skills">
         Skills

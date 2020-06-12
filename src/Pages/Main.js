@@ -1,18 +1,20 @@
 import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Homepage from "./Homepage/Homepage";
+import About from "./About/About";
 import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
-import Contact from "./Contact";
+import Contact from "./Contact/Contact";
 
 export default function Main() {
   return (
-    <div id="homepage">
+    <>
       <Navbar />
-      <Homepage />
+      <Homepage id="homepage" />
+      <About id="about" />
       <Skills id="skills" />
       <Projects id="project" />
       <Contact id="contact" />
-    </div>
+    </>
   );
 }

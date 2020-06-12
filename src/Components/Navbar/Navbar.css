@@ -10,24 +10,9 @@
   border-bottom: 1px solid red;
 }
 
-.navbar-button {
-}
-
-/* .navbar-logo {
-  transition: 0.1s;
-  width: 6%;
-  padding: 12px;
-  margin-left: 40px;
-}
-
-.navbar-logo:hover {
-  transform: scale(1.15);
-} */
-
 .navbar-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr;
 }
 
 .nav-link {
@@ -38,6 +23,14 @@
   color: #000;
   margin-left: 20px;
   transition: 0.2s;
+}
+
+.nav-link.logo {
+  font-family: "Varela Round", sans-serif;
+}
+
+.fullstop {
+  color: red;
 }
 
 .nav-link:hover {

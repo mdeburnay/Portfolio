@@ -31,7 +31,11 @@ export default function Homepage() {
             ></link>
           </div>
         </div>
-        <div className="summary" data-aos="fade in" data-aos-delay="500">
+        <div
+          className="summary homepage"
+          data-aos="fade in"
+          data-aos-delay="500"
+        >
           Hi, I'm Max<span className="fullstop">.</span>
           <br></br>
           <br></br>A social, dedicated and passionate individual actively
