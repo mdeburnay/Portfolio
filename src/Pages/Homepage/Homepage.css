@@ -1,9 +1,25 @@
 .section-container.homepage {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  background-color: black;
 }
 
-.left-container {
+.portfolio-image {
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.header {
+  color: white;
+  font-size: 50px;
+  font-family: "Varela Round", sans-serif;
+}
+
+/* .left-container {
   position: relative;
   opacity: 1;
 }
@@ -47,4 +63,4 @@
   font-weight: bold;
   font-family: "Manrope", sans-serif;
   line-height: 2;
-}
+} */

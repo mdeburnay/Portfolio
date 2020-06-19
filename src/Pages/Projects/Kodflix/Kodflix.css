@@ -1,19 +1,47 @@
+.section-container.kodflix {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .left-container {
   position: relative;
   opacity: 1;
 }
 
-.section-container.kodflix {
+.project-container {
+  padding: 0 20px;
 }
 
 .section-header.kodflix {
   font-family: "Varela Round", sans-serif;
 }
-.summary.kodflix {
-  padding-left: 20px;
-}
 
 .summary-title {
   font-family: "Varela Round", sans-serif;
   font-size: 20px;
+}
+
+.key-features-title {
+  font-family: "Varela Round", sans-serif;
+  font-size: 20px;
+}
+
+.tech-used-title {
+  font-family: "Varela Round", sans-serif;
+  font-size: 20px;
+}
+
+#slideshow {
+  position: relative;
+}
+
+#slideshow > div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.slideshow-image {
+  width: 100%;
+  height: 100vh;
 }

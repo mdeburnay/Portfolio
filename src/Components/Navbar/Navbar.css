@@ -2,24 +2,23 @@
   background-color: white;
   width: 100%;
   position: fixed;
-  top: 0;
   left: 0;
   right: 0;
-  height: 4em;
+  height: 2.5em;
   z-index: 9999;
-  border-bottom: 1px solid red;
+  opacity: 1;
 }
 
 .navbar-content {
   display: grid;
-  grid-template-columns: 4fr 1fr 1fr 1fr;
+  grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
 }
 
 .nav-link {
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
-  margin-top: 15px;
+  margin-top: 5px;
   color: #000;
   margin-left: 20px;
   transition: 0.2s;

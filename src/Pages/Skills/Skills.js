@@ -8,6 +8,8 @@ import javascriptIcon from "../../Images/javascriptIcon.svg";
 import html5Icon from "../../Images/html5Icon.svg";
 import css3Icon from "../../Images/css3Icon.svg";
 import reactIcon from "../../Images/reactIcon.png";
+// import herokuIcon from "../../Images/herokuIcon.svg";
+// import nodeIcon from "../../Images/nodejsIcon.svg";
 
 export default function Skills() {
   useEffect(() => {

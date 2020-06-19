@@ -15,6 +15,11 @@
   filter: invert(100%);
 }
 
+.skills-icon.node-icon {
+  width: 30%;
+  filter: grayscale(100%);
+}
+
 .skills-icon-text {
   color: white;
   font-size: 25px;

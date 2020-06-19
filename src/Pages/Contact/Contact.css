@@ -1,4 +1,16 @@
 .section-container.contact {
-    background: black;
-    color: white;
-  }
+  background: black;
+  color: white;
+}
+
+.section-grid-contact {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.contact-icon {
+  margin-top: 80px;
+  width: 20%;
+  filter: invert(100%);
+}

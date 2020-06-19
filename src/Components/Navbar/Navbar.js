@@ -32,7 +32,10 @@ function NavbarContent({ isOpen }) {
           href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
           rel="stylesheet"
         ></link>
-       <div></div>
+        <div></div>
+      </Link>
+      <Link className="nav-link" smooth to="#about">
+        About
       </Link>
       <Link className="nav-link" smooth to="#skills">
         Skills
