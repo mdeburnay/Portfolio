@@ -19,54 +19,67 @@ export default function About() {
           About<span className="fullstop">.</span>
         </h1>
         <div className="summary" data-aos="fade" data-aos-delay="500">
-          Like many graduates these days, after finishing University with a
-          First Class Honours degree in History I still wasn't sure on what I
-          wanted my career to be. During my search, a fantastic role opportunity
-          presented itself as a Resourcer for a leading IT recruitment agency.
-          Given that I love talking to people and possess great resilience, I
-          took the role.
+          Aspiring Software Development professional with a passion for problem
+          solving and creating meaningful user experiences.
           <br />
           <br />
           <div>
-            While in IT recruitment, I consistently had meaning conversations
-            and meetings with seasoned IT professionals, ranging from those in
-            Development and Architecture, Programme and Project Management, to
-            the CIO and CTO. It was through these engagements that my interest
-            and curiosity around technology piqued. In an age where technology
-            is a growing innovator and driving force for businesses globally,
-            being part of something that consistently reinvents and builds upon
-            the way we operate at a corporate and social level, and ultimately
-            having the opportunity to consistently learn and develop throughout
-            your career seemed like an incredibly exciting prospect.
+            In my most recent role as an IT Recruitment Consultant for a leading
+            consultancy, I consistently had meaning conversations and meetings
+            with seasoned IT professionals, ranging from those in Development
+            and Architecture, Programme and Project Management, to the CIO and
+            CTO.
+          </div>
+          <div>
+            <br />
+            It was through these engagements that my interest and curiosity
+            around technology piqued. In an age where technology is a growing
+            innovator and driving force for businesses globally, being part of
+            something that consistently reinvents and builds upon the way we
+            operate at a corporate and social level, and ultimately having the
+            opportunity to consistently learn and develop throughout your career
+            seemed like an incredibly exciting prospect.
           </div>
           <br />
           <div>
-            In turn, I began learning basic web development in my spare time,
-            and knew this was exactly what I wanted to do with my professional
-            life. After roughly a year of studying I decided to leave my role as
-            a Recruitment Consultant and join an intensive 8-week programming
-            Bootcamp to hone my skills and learn as much as possible in
+            In turn, after a year of self-study I left my role as a Recruitment
+            Consultant to join an <span> </span>
+            <a
+              href="https://kodiri.com/players/5e1ccade83e99e22aa59dd37"
+              className="about-links"
+            >
+              intensive 8-week programming Bootcamp
+            </a>
+            <span> </span>
+            and hone my skills and learn the most in-demand technologies in
             preparation for the market.
           </div>
           <br />
-          <div>
-            Now, I'm actively seeking my first opportunity as a
-            Full-stack/Front-End Web Developer for a business that will see my
-            technical skills, enthusiasm and passion for coding as a valuable
-            asset.
-          </div>
           <br />
           <div>
-            Of course, that's not all I enjoy. I'm a pretty active person and
-            have a variety of interest; whether it be running the 2019
-            Birmingham Half Marathon, fighting professionally in Muay Thai,
-            playing board and online games with friends or travelling across the
+            Of course, that's not all I enjoy. I'm an active person and have a
+            variety of interests; whether it be running either for leisure
+            <span> </span>
+            <a
+              href="https://www.greatrun.org/myresults/889/1685"
+              className="about-links"
+            >
+              or in competition
+            </a>
+            ,<span> </span>
+            <a
+              href="https://www.youtube.com/watch?v=7igLgJUmsng"
+              className="about-links"
+            >
+              training in Muay Thai
+            </a>
+            , playing board and online games with friends or travelling the
             world.
           </div>
           <br />
           <div>
-            But enough talk. Let's have a look below and see what I can offer
-            your business.
+            But enough talk. Let's have a look below and see what I have been up
+            to.
           </div>
         </div>
         <link

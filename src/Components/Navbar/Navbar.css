@@ -4,7 +4,7 @@
   position: fixed;
   left: 0;
   right: 0;
-  height: 2.5em;
+  height: 2em;
   z-index: 9999;
   opacity: 1;
 }
@@ -16,16 +16,13 @@
 
 .nav-link {
   text-decoration: none;
+  font-family: "Varela Round", sans-serif;
   font-size: 20px;
   font-weight: 600;
-  margin-top: 5px;
+  padding: 5px;
   color: #000;
   margin-left: 20px;
   transition: 0.2s;
-}
-
-.nav-link.logo {
-  font-family: "Varela Round", sans-serif;
 }
 
 .fullstop {
@@ -35,10 +32,6 @@
 .nav-link:hover {
   color: red;
   cursor: default;
-}
-
-.nav-items > .active {
-  color: red;
 }
 
 @media screen and (min-width: 600px) {

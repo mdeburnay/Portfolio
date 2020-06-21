@@ -8,8 +8,8 @@ import javascriptIcon from "../../Images/javascriptIcon.svg";
 import html5Icon from "../../Images/html5Icon.svg";
 import css3Icon from "../../Images/css3Icon.svg";
 import reactIcon from "../../Images/reactIcon.png";
-// import herokuIcon from "../../Images/herokuIcon.svg";
-// import nodeIcon from "../../Images/nodejsIcon.svg";
+import nodeIcon from "../../Images/nodejsIcon.png";
+import herokuIcon from "../../Images/herokuIcon.svg";
 
 export default function Skills() {
   useEffect(() => {
@@ -29,11 +29,6 @@ export default function Skills() {
         />
         <img src={html5Icon} className="skills-icon" alt="HTML5 Icon" />
         <img src={css3Icon} className="skills-icon" alt="CSS3 Icon" />
-        <img
-          src={reactIcon}
-          className="skills-icon react-icon"
-          alt="React Icon"
-        />
         <div
           className="skills-icon-text"
           data-aos="fade-in"
@@ -54,6 +49,24 @@ export default function Skills() {
           data-aos-delay="500"
         >
           CSS3
+        </div>
+        <img src={nodeIcon} className="skills-icon node.js" alt="Node Icon" />
+        <img src={herokuIcon} className="skills-icon " alt="Heroku  Icon" />
+        <img src={reactIcon} className="skills-icon " alt="React Icon" />
+
+        <div
+          className="skills-icon-text"
+          data-aos="fade-in"
+          data-aos-delay="500"
+        >
+          Node.js
+        </div>
+        <div
+          className="skills-icon-text"
+          data-aos="fade-in"
+          data-aos-delay="500"
+        >
+          Heroku
         </div>
         <div
           className="skills-icon-text"

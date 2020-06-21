@@ -1,27 +1,47 @@
 .section-container.projects {
-  color: black;
+  height: 1000px;
 }
 
 .section-grid-projects {
   display: grid;
   grid-template-columns: 1fr;
-  justify-items: center;
-  padding-top: 20px;
+  padding: 20px;
+  grid-gap: 10px;
 }
 
-.project-image {
-  transition: 0.2;
-  border-radius: 50px 50px;
-}
-
-.project-text {
-  font-size: 25px;
-  font-weight: 400;
-  padding: 25px;
-  color: #000;
+.project-card-link {
   text-decoration: none;
+  color: black;
 }
 
-.project-image:hover {
-  transform: scale(1.2);
+.project-card {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 20px;
+  transition-duration: 0.3s;
+}
+
+.project-card:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  border-radius: 50px;
+}
+
+.project-card-img {
+  border-radius: 50px;
+  width: 200px;
+  height: 200px;
+}
+
+.project-card-title {
+  font-family: "Varela Round", sans-serif;
+}
+
+.project-card-technologies {
+  display: flex;
+}
+
+.project-card-logo {
+  width: 40px;
+  filter: grayscale(100%);
+  margin: 15px;
 }

@@ -10,21 +10,30 @@ export default function Contact() {
         Contact<span className="fullstop">.</span>
       </h1>
       <div className="section-grid-contact" data-aos="fade-in">
-        <img className="contact-icon" src={gitHubIcon} />
-        <img className="contact-icon" src={linkedInIcon} />
+        <a href="https://github.com/mdeburnay">
+          <img className="contact-icon" src={gitHubIcon} alt="GitHub Icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/max-de-burnay-bastos-009b65197/">
+          <img
+            className="contact-icon"
+            src={linkedInIcon}
+            alt="LinkedIn Icon"
+          />
+        </a>
+
         <div
           className="skills-icon-text"
           data-aos="fade-in"
           data-aos-delay="500"
         >
-          Check out more...
+          Want to see what's under the hood?
         </div>
         <div
           className="skills-icon-text"
           data-aos="fade-in"
           data-aos-delay="500"
         >
-          ...or get in touch.
+          ...or shall we get in touch?
         </div>
       </div>
     </div>

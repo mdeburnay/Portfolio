@@ -5,19 +5,13 @@
 
 .section-grid-skills {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
-  padding-top: 75px;
 }
 
 .skills-icon {
-  width: 30%;
+  width: 100px;
   filter: invert(100%);
-}
-
-.skills-icon.node-icon {
-  width: 30%;
-  filter: grayscale(100%);
 }
 
 .skills-icon-text {
