@@ -10,10 +10,13 @@ export default function Contact() {
         Contact<span className="fullstop">.</span>
       </h1>
       <div className="section-grid-contact" data-aos="fade-in">
-        <a href="https://github.com/mdeburnay">
+        <a href="https://github.com/mdeburnay" target="_blank">
           <img className="contact-icon" src={gitHubIcon} alt="GitHub Icon" />
         </a>
-        <a href="https://www.linkedin.com/in/max-de-burnay-bastos-009b65197/">
+        <a
+          href="https://www.linkedin.com/in/max-de-burnay-bastos-009b65197/"
+          target="_blank"
+        >
           <img
             className="contact-icon"
             src={linkedInIcon}

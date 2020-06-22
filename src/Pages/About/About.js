@@ -41,6 +41,7 @@ export default function About() {
             <a
               href="https://kodiri.com/players/5e1ccade83e99e22aa59dd37"
               className="about-links"
+              target="_blank"
               rel="noopener noreferrer"
             >
               intensive 8-week programming Bootcamp
