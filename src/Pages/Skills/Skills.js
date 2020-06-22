@@ -1,7 +1,4 @@
-import React, { useEffect } from "react";
-
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import "./Skills.css";
 
 import javascriptIcon from "../../Images/javascriptIcon.svg";
@@ -12,10 +9,6 @@ import nodeIcon from "../../Images/nodejsIcon.png";
 import herokuIcon from "../../Images/herokuIcon.svg";
 
 export default function Skills() {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
-
   return (
     <div className="section-container skills" id="skills">
       <h1 className="section-header" data-aos="fade-right">

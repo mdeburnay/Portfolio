@@ -1,13 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./About.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 export default function About() {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
-
   return (
     <>
       <div className="section-container" id="about">
@@ -47,12 +41,31 @@ export default function About() {
             <a
               href="https://kodiri.com/players/5e1ccade83e99e22aa59dd37"
               className="about-links"
+              rel="noopener noreferrer"
             >
               intensive 8-week programming Bootcamp
             </a>
+            <span> </span>, where I built full-stack and front-end applications,
+            took part in weekly individual and pair-programmed technical tests,
             <span> </span>
-            and hone my skills and learn the most in-demand technologies in
-            preparation for the market.
+            <a
+              href="https://www.youtube.com/watch?v=9v579YUtTA8&t=5008s"
+              className="about-links"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              after-hours social programming events
+            </a>
+            <span> and </span>
+            <a
+              href="https://www.youtube.com/watch?v=9v579YUtTA8&t=5008s"
+              className="about-links"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              delivered a workshop on React hooks
+            </a>
+            <span>.</span>
           </div>
           <br />
           <br />
@@ -63,6 +76,8 @@ export default function About() {
             <a
               href="https://www.greatrun.org/myresults/889/1685"
               className="about-links"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               or in competition
             </a>
@@ -70,6 +85,8 @@ export default function About() {
             <a
               href="https://www.youtube.com/watch?v=7igLgJUmsng"
               className="about-links"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               training in Muay Thai
             </a>

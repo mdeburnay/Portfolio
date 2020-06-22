@@ -11,7 +11,24 @@
 
 .navbar-content {
   display: grid;
-  grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.navbar-logo-container {
+  display: flex;
+}
+
+.nav-link.logo > .fullstop {
+  transition: 0.2s;
+}
+
+.nav-link.logo:hover > .fullstop {
+  color: #000;
+}
+
+.navbar-link-container {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .nav-link {

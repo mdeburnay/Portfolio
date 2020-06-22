@@ -1,15 +1,9 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import "./Homepage.css";
 
 import portfolioPic from "../../Images/PortfolioPic2.jpeg";
 
 export default function Homepage() {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
-
   return (
     <>
       <div className="section-container homepage" id="home">
