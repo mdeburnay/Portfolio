@@ -21,9 +21,9 @@ export default function Homepage() {
           alt="Portfolio Main"
         />
         <div className="header" data-aos="fade">
-          Hi,<span> </span>
+          Hi<span></span>
           <span data-aos="fade" data-aos-delay="1000">
-            I'm Max<span className="fullstop">.</span>
+            , I'm Max<span className="fullstop">.</span>
           </span>
         </div>
         <br />

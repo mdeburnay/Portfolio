@@ -33,12 +33,12 @@ export default function About() {
           <div>
             <br />
             It was through these engagements that my interest and curiosity
-            around technology piqued. In an age where technology is a growing
+            around technology piqued; in an age where technology is a growing
             innovator and driving force for businesses globally, being part of
             something that consistently reinvents and builds upon the way we
-            operate at a corporate and social level, and ultimately having the
-            opportunity to consistently learn and develop throughout your career
-            seemed like an incredibly exciting prospect.
+            operate at a corporate and social level, and having the opportunity
+            to consistently learn and develop throughout my career seemed like
+            an incredibly exciting prospect.
           </div>
           <br />
           <div>
