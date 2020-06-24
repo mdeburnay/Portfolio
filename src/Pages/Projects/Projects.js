@@ -17,7 +17,7 @@ export default function Projects() {
       <h1 className="section-header" data-aos="fade-right">
         Projects<span className="fullstop">.</span>
       </h1>
-      <div className="section-grid-projects">
+      <div className="section-grid-projects" data-aos="fade-right">
         <a
           href="https://kodflix-project.herokuapp.com/"
           className="project-card-link"
