@@ -1,10 +1,9 @@
 .summary {
-  transition: 0.2s ease;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
-  text-align: justify;
-  padding: 0 100px;
+  text-align: left;
   font-family: "Roboto", sans-serif;
+  word-wrap: break-word;
 }
 
 .about-links {
@@ -22,4 +21,28 @@
 .about-links:hover {
   color: black;
   transition: 0.3s;
+}
+
+@media (max-width: 1200px) {
+  .summary {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .summary {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .summary {
+    font-size: 0.76rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .summary {
+    font-size: 0.72rem;
+  }
 }

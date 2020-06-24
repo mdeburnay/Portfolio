@@ -4,12 +4,8 @@ import "./About.css";
 export default function About() {
   return (
     <>
-      <div className="section-container" id="about">
-        <h1
-          className="section-header kodflix"
-          data-aos="fade-right"
-          offset="400"
-        >
+      <div className="section-container about" id="about">
+        <h1 className="section-header" data-aos="fade-right" offset="400">
           About<span className="fullstop">.</span>
         </h1>
         <div className="summary" data-aos="fade" data-aos-delay="500">

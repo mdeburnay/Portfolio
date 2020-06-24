@@ -9,13 +9,29 @@
   grid-template-columns: repeat(2, 2fr);
 }
 
+.contact-icon-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
 .contact-icon {
-  margin-top: 100px;
-  width: 100px;
+  width: 7.5rem;
   filter: invert(100%);
   transition: 0.2s ease;
 }
 
 .contact-icon:hover {
   transform: scale(1.2);
+}
+
+.contact-icon-text {
+  font-size: 1.3rem;
+  padding: 10% 0;
+}
+
+@media (max-width: 600px) {
+  .section-grid-contact {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

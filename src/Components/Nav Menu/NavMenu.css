@@ -9,9 +9,13 @@
   opacity: 1;
 }
 
-.navbar-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.navbar-button {
+  width: 200px;
+  text-decoration: none;
+  border: none;
+  background: none;
+  outline: none;
+  position: absolute;
 }
 
 .navbar-content.is-open {
@@ -24,6 +28,11 @@
   width: 50%;
   height: 40%;
   background-color: black;
+}
+
+.navbar-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .navbar-logo-container {
@@ -46,7 +55,7 @@
 .nav-link {
   text-decoration: none;
   font-family: "Varela Round", sans-serif;
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 600;
   padding: 5px;
   color: #000;
@@ -63,12 +72,16 @@
   cursor: default;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .navbar {
-    height: 1rem;
+    height: 1.7rem;
   }
 
-  .navbar-button {
-    display: none;
+  .navbar-content {
+    display: flex;
+  }
+
+  .nav-link {
+    font-size: 1rem;
   }
 }

@@ -1,20 +1,41 @@
 .section-container {
+  box-sizing: border-box;
+  padding: 0.5% 20% 0% 20%;
   width: 100%;
   height: 100vh;
 }
 
 .section-header {
-  padding-left: 20px;
   font-family: "Varela Round", sans-serif;
-  font-size: 60px;
-  display: inline-block;
+  font-size: 4rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .App {
     display: grid;
     grid-template-rows: 1fr;
     justify-content: center;
     width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .section-header {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .App {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .section-header {
+    font-size: 3rem;
   }
 }

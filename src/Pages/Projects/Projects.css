@@ -5,15 +5,13 @@
 .section-grid-projects {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 20px;
-  grid-gap: 10px;
+  grid-gap: 1%;
 }
 
 .project-card-link {
   text-decoration: none;
   color: black;
   border-radius: 50px;
-  border: none;
   transition: 0.2s;
 }
 
@@ -23,8 +21,8 @@
 
 .project-card {
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  padding: 20px;
+  grid-template-columns: 1fr 2fr;
+  padding: 1.5%;
 }
 
 .project-card-img {
@@ -43,5 +41,44 @@
 
 .project-card-logo {
   width: 40px;
-  margin: 15px;
+  margin: 2%;
+}
+
+@media (max-width: 600px) {
+  .section-container.projects {
+    height: 1100px;
+  }
+
+  .section-grid-projects {
+    grid-gap: 3%;
+  }
+  .project-card-link {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+
+  .project-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .project-card-img {
+    justify-self: center;
+    align-self: center;
+    border-radius: 25px;
+    width: 75px;
+    height: 75px;
+  }
+
+  .project-card-title {
+    font-size: 1.5rem;
+  }
+
+  .project-card-summary {
+    font-size: 1rem;
+  }
+
+  .project-card-logo {
+    width: 20px;
+  }
 }
