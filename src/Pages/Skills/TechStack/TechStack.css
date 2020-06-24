@@ -1,0 +1,17 @@
+.skills-grid-section {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.skills-icon {
+  width: 80px;
+  justify-self: center;
+  filter: invert(100%);
+}
+
+.skills-icon-text {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 1.3rem;
+}

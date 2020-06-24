@@ -5,34 +5,16 @@
 
 .section-grid-skills {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   grid-gap: 0px 20%;
   justify-items: center;
   align-items: center;
 }
 
-.skills-grid-section {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.skills-icon {
-  width: 80px;
-  justify-self: center;
-  filter: invert(100%);
-}
-
-.skills-icon-text {
-  color: white;
-  font-size: 1.4rem;
-  font-weight: 400;
-  padding: 1.3rem;
-}
-
 @media (max-width: 600px) {
   .section-grid-skills {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 0px 20%;
     justify-items: center;
   }
