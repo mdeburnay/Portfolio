@@ -18,11 +18,11 @@ export default function App() {
           <Route exact path="/" component={Main} />
           <Route exact path="/not-found" component={NotFound} />
         </Switch>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-          rel="stylesheet"
-        ></link>
       </div>
+      <style>
+        @import
+        url('https://fonts.googleapis.com/css2?family=Heebo&family=Varela+Round&display=swap');
+      </style>
     </Router>
   );
 }
