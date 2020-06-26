@@ -17,3 +17,9 @@
   font-size: 3rem;
   font-family: "Varela Round", sans-serif;
 }
+
+@media (max-width: 600px) {
+  .section-grid.homepage {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}

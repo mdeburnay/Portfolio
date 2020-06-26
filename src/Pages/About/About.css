@@ -36,13 +36,20 @@
 }
 
 @media (max-width: 700px) {
+  .section-container.about {
+    height: 700px;
+  }
+
   .summary {
-    font-size: 0.76rem;
+    font-size: 0.8rem;
   }
 }
 
 @media (max-width: 600px) {
+  .section-container.about {
+    height: 1100px;
+  }
   .summary {
-    font-size: 0.72rem;
+    font-size: 1rem;
   }
 }
