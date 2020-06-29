@@ -9,7 +9,11 @@ import pomodoroLogo from "../../../Images/pomodoroTimerLogo.png";
 
 export default function PomodoroTimer() {
   return (
-    <a href="" className="project-card-link" target="_blank">
+    <a
+      href="https://pomodoro-timer-psi.vercel.app/"
+      className="project-card-link"
+      target="_blank"
+    >
       <div className="project-card" data-aos="fade-right">
         <img
           className="project-card-img"
