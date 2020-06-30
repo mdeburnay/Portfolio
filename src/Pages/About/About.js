@@ -53,16 +53,8 @@ export default function About() {
             >
               after-hours social programming events
             </a>
-            <span> and </span>
-            <a
-              href="https://www.youtube.com/watch?v=9v579YUtTA8&t=5008s"
-              className="about-links"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              delivered a workshop on React hooks
-            </a>
-            <span>.</span>
+            <span> </span>
+            and delivered a workshop on React hooks.
           </div>
           <br />
           <br />
