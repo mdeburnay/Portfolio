@@ -1,5 +1,5 @@
 .section-container.projects {
-  height: 1000px;
+  height: auto;
 }
 
 .section-grid-projects {
@@ -46,7 +46,7 @@
 
 @media (max-width: 600px) {
   .section-container.projects {
-    height: 1100px;
+    height: auto;
   }
 
   .section-grid-projects {

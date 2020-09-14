@@ -9,11 +9,6 @@
   opacity: 1;
 }
 
-.navbar-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 .navbar-content.is-open {
   display: grid;
   grid-template-columns: 1fr;

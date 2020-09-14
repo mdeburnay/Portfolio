@@ -4,6 +4,8 @@
   justify-items: center;
   align-items: center;
   background-color: black;
+  height: auto;
+  padding: 80px 164px 164px 164px;
 }
 
 .portfolio-image {
